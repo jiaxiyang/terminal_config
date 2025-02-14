@@ -17,6 +17,7 @@ export FZF_DEFAULT_OPTS="--color=hl:green,hl+:#00ff00"
 source <(fzf --style full --zsh)
 
 export LESS=XR
-export TERM="screen-256color"
+#export TERM="screen-256color"
+export TERM="xterm-256color"
 
 # PROMPT='%B%F{green}%n@%u%f:%F{blue}%~%f%B%f $ ' 
